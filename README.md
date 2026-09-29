@@ -105,6 +105,7 @@ rule tides:
           -o {params.prefix} \
           -d {input.db} \
           -t {threads} \
+          -l 150 \
           -g {params.genetic_code} \
           -p
 
